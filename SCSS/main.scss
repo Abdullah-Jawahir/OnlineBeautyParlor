@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;1,100&family=Work+Sans:wght@400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+$primary-color: #F18C8E;
+$footer-links: #EA8C8E;
+$footer-bg: #100B0F;
+
+$p-left: 8em;
+
+@import '../SCSS/home';
+@import '../SCSS/header';
+@import '../SCSS/footer';
+
+.container {
+
+    padding-top: 1.4em;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+li {
+
+    list-style: none;
+}

@@ -1,0 +1,115 @@
+footer {
+
+    color: rgba(255, 255, 255, .7);
+    background-color: $footer-bg;
+    padding-top: 8em;
+    padding-bottom: 7em;
+    padding-left: $p-left;
+    padding-right: $p-left;
+
+
+    $h3-btm-mrgn: 40px;
+    $bpms-h3-btm-mrgn: $h3-btm-mrgn - 10px;
+
+    .footer-details {
+
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+
+        .bpms-details, .links, .footer-contact {
+
+            h3 {
+
+                color: #fff;
+            }
+        }
+
+        .links, .footer-contact {
+
+            h3 {
+
+                margin-bottom: $h3-btm-mrgn;
+            }
+        }
+
+        .bpms-details {
+
+            width: 19em;
+
+
+            h3 {
+
+                text-transform: uppercase;
+                font-family: 'Pacifico', cursive;
+                margin-bottom: $bpms-h3-btm-mrgn;
+                
+            }
+
+            p {
+
+                line-height: 2;
+            }
+        }
+
+        .links {
+
+            h3 {
+
+                text-transform: capitalize;
+            }
+
+            li {
+
+                margin-bottom: 30px;
+            }
+
+            .footer-links {
+
+                color: rgba(255, 255, 255, .7);
+                text-transform: capitalize;
+            }
+
+        }
+
+        .footer-contact {
+
+            ul {
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 150px;
+            }
+
+            li {
+
+                display: flex;
+
+                i {
+
+                    color: #fff;
+                    margin-right: 30px;
+                    font-size: 1rem;
+                }
+            }
+
+            .f-address {
+
+                width: 300px;
+            }
+
+            .f-phone, .f-mail {
+
+                color: #fff;
+            }
+        }
+
+    }
+
+
+    .foot-note {
+
+        text-align: center;
+    }
+}

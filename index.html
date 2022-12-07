@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BPMS || Home Page</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./CSS/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header Section Starts Here -->
+
+        <header>
+            <a class="logo">beauty parlour management system</a>
+            <nav>
+                <a href="#" class="nav-link active">home</a>
+                <a href="#" class="nav-link">services</a>
+                <a href="#" class="nav-link">about</a>
+                <a href="#" class="nav-link">contact</a>
+                <a href="#" class="nav-link">admin</a>
+            </nav>
+        </header>
+
+        <!-- Header Section Ends Here -->
+
+        <!-- Home Body Section -->
+        <div class="background"></div>
+
+        <section id="hc-1" class="hero-sec">
+            <div class="hero-details">
+                <h5>beauty parlour</h5>
+                <h1>get pretty look</h1>
+                <p>We pride ourselves on our high quality work and attention to detail. The products we use are top quality branded products.</p>
+            </div>
+            <div class="hero-banner">
+                <img src="./images/bg_1.png" alt="image of a girl">
+            </div>
+        </section>
+
+        <section id="booking-sec">
+            <div class="booking-form-card">
+                <h5>reservation</h5>
+                <h2>Make an Appointment</h2>
+                <form id="booking-form">
+                    <input type="text" placeholder="NAME" id="username" required>
+                    <input type="email" name="user-email" placeholder="EMAIL" id="user-email" required>
+                    <select name="services" id="services">
+                        <option value="SELECT SERVICES">SELECT SERVICES</option>
+                        <option value="O3 FACIAL">O3 FACIAL</option>
+                        <option value="FRUIT FACIAL">FRUIT FACIAL</option>
+                        <option value="CHARCOL FACIAL">CHARCOL FACIAL</option>
+                        <option value="DELUXE MENICURE">DELUXE MENICURE</option>
+                        <option value="DELUXE PEDICURE">DELUXE PEDICURE</option>
+                        <option value="NORMAL MENICURE">NORMAL MENICURE</option>
+                        <option value="U-SHAPE HAIR CUT">U-SHAPE HAIR CUT</option>
+                        <option value="LAYER HAIRCUT">LAYER HAIRCUT</option>
+                        <option value="REBONDING">REBONDING</option>
+                        <option value="LOREAL HAIR COLOR(FULL)">LOREAL HAIR COLOR(FULL)</option>
+                        <option value="BODY SPA">BODY SPA</option>
+                        <option value="TEST">TEST</option>
+                        <option value="ABC">ABC</option>
+                    </select>
+                    <input type="date" name="serv-date" id="serv-date" placeholder="DATE" required>
+                    <input type="time" name="serv-time" id="serv-time" placeholder="TIME" required>
+                    <option value=""></option>
+                    <input type="tel" name="user-num" id="user-num" placeholder="PHONE" required>
+                    <button id="book-btn">make an appointment</button>
+                </form>
+            </div>
+
+            <div class="booking-img-wrapper">
+                <div class="booking-bg-img"></div>
+            </div>
+
+        </section>
+
+        <!-- Home Body Section Ends Here -->
+
+
+        <!-- Footer Starts -->
+        <footer>
+            <div class="footer-details">
+                <div class="bpms-details">
+                    <h3>bpms</h3>
+                    <p>Our main focus is on quality and hygiene. Our Parlour is well equipped with advanced technology equipments and provides best quality services. Our staff is well trained and experienced, offeri More.......</p>
+                </div>
+
+                <div class="links">
+                    <h3>links</h3>
+                    <ul>
+                        <li><a href="" class="footer-links">home</a></li>
+                        <li><a href="" class="footer-links">about</a></li>
+                        <li><a href="" class="footer-links">services</a></li>
+                        <li><a href="" class="footer-links">admin</a></li>
+                        <li><a href="" class="footer-links">contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h3>Have a Question?</h3>
+                    <ul>
+                        <li class="f-address"><i class="fa-solid fa-location-dot"></i><p>890,Sector 62, Gyan Sarovar, GAIL Noida(Delhi/NCR)</p></li>
+                        <li class="f-phone"><i class="fa-solid fa-phone"></i><p>+7896541236</p></li>
+                        <li class="f-mail"><i class="fa-solid fa-envelope"></i><p>info@gmail.com</p></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="foot-note">2019 © Beauty Parlour Management System</p>
+        </footer>
+
+        <!-- Footer Ends Here -->
+    </div>
+</body>
+
+</html>

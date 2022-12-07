@@ -1,0 +1,163 @@
+.background {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/bg.jpg);
+    overflow-y: hidden;
+    background-size: cover;
+    z-index: -999;
+
+}
+
+// --------------- HERO SECTION ---------------
+
+.hero-sec {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding-left: $p-left;
+    // border: 1px solid;
+    width: 1005;
+    height: 92vh;
+    overflow-y: hidden;
+
+    .hero-details {
+        display: flex;
+        flex-direction: column;
+        // border: 1px solid;
+        width: 80%;
+        z-index: -1;
+        justify-content: space-between;
+        margin-top: 80px;
+        // transform: translateY(50%);
+
+        h5 {
+
+            text-transform: uppercase;
+            letter-spacing: 6px;
+            font-size: 1rem;
+            font-weight: bolder;
+            margin-bottom: 8px;
+            position: relative;
+
+            &::before {
+
+                content: '';
+                position: absolute;
+                bottom: 100%;
+                width: 70px;
+                height: 110px;
+                border: 5px solid $primary-color;
+            }
+        }
+
+        h1 {
+
+            text-transform: capitalize;
+            font-weight: bolder;
+            font-size: 3.6rem;
+            margin-bottom: 25px;
+        }
+
+        p {
+
+            color: rgba(0, 0, 0, 0.8);
+            line-height: 1.8;
+            width: 30em;
+        }
+    }
+
+    .hero-banner {
+        
+        transform: scale(.85);
+        height: 100px;
+        position: absolute;
+        top: -26px;
+        right: -65px;
+        z-index: 999;
+    }
+}
+
+// --------------- BOOKING SECTION ---------------
+
+#booking-sec {
+
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    position: relative;
+    padding-top: 2em;
+    padding-bottom: 5em;
+
+
+    .booking-form-card {
+
+        position: absolute;
+        border: 1px solid;
+        bottom: 30px;
+        left: 50px;
+        z-index: 999;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 50px 30px 0 30px;
+        width: max-content;
+
+        h5 {
+
+            text-transform: uppercase;
+            color: #9E728E;
+            font-weight: 600;
+            letter-spacing: 1px;
+            font-size: 12px;
+        }
+
+        h2 {
+
+            color: #563B4C;
+            font-size: 1.5rem;
+            font-family: 'Playfair Display', serif;
+            letter-spacing: 1px;
+        }
+
+        #booking-form {
+
+            display: flex;
+            flex-direction: column;
+
+            input, select {
+
+                padding: 10px 0 10px 0;
+                border: 0;
+                outline: none;
+                border-bottom: 1px solid gray;
+                width: 300px;
+            }
+        }
+    }
+
+    .booking-img-wrapper {
+
+        padding: 25px 0 25px 25px;
+        border: 1px solid $primary-color;
+        width: 60%;
+        margin-left: auto;
+        border-right: none;
+
+        .booking-bg-img {
+
+            height: 500px;
+            background-image: url(../images/bg-1.jpg);
+            background-size: cover;
+            background-position: center;
+            margin-left: auto;
+        }
+
+    }
+}
