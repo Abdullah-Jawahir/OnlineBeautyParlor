@@ -1,0 +1,149 @@
+.hero-section {
+
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90vh;
+    background-image: url(../images/bg-2.jpg);
+    overflow-y: hidden;
+    background-size: cover;
+    background-position: 0 0px;
+    z-index: -999;
+
+    .pink-overlay {
+
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: #f18c8e;
+        opacity: .3;
+    }
+
+    .p-map {
+
+        position: absolute;
+        bottom: 70px;
+        left: 260px;
+
+        h2 {
+
+            text-transform: capitalize;
+            font-weight: 900;
+            font-size: 3.1rem;
+            margin-bottom: 10px;
+        }
+
+        .pathway {
+
+            display: flex;
+            align-items: center;
+            
+            .path {
+
+                margin-right: 15px;
+
+                span {
+
+                    color: rgba(0, 0, 0, 0.7);
+                }
+            }
+
+            a, span {
+
+                margin-right: 5px;
+                text-transform: capitalize;
+                font-weight: bold;
+
+            }
+
+            i {
+
+                font-size: .7rem;
+            }
+
+        }
+    }
+}
+
+
+.serv-info {
+
+    position: relative;
+    width: 100%;
+    height: max-content;
+    z-index: 999;
+    background-color: #fff;
+    padding-top: 6em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 7em;
+
+    .serv-watermark {
+
+        position: absolute;
+        top: 6px;
+        font-size: 7.2rem;
+        font-weight: normal;
+        font-family: 'Pacifico', cursive;
+        text-transform: capitalize;
+        color: rgb(160, 159, 159);
+        opacity: .1;
+        z-index: -999;
+        letter-spacing: 1px;
+    }
+
+    h5 {
+
+        text-transform: uppercase;
+        color: #f18c8e;
+        letter-spacing: 1px;
+        font-size: 12px;
+        margin-bottom: 10px;
+        
+    }
+
+    h2 {
+
+        text-transform: capitalize;
+        font-size: 2.3rem;
+        font-weight: 600;
+        margin-bottom: 27px;
+        color: rgba(0, 0, 0, 0.8);
+    }
+
+    p {
+
+        color: gray;
+        margin-bottom: 35px;
+    }
+
+    table {
+
+        width: 80%;
+        border-collapse: collapse;
+        text-transform: capitalize;
+        text-align: left;
+
+        thead {
+
+            border-bottom: 2px solid lightgray;
+        }
+
+        th, td {
+
+            padding: 15px 10px;
+            border: 1px solid lightgray;
+        }
+
+        td:nth-child(1) {
+
+            font-weight: bold;
+        }
+    }
+
+}

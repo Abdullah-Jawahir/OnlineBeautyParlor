@@ -21,17 +21,17 @@
     align-items: center;
     position: relative;
     padding-left: $p-left;
-    width: 1005;
-    height: 92vh;
+    width: 100%;
+    height: 100vh;
     overflow-y: hidden;
 
     .hero-details {
         display: flex;
         flex-direction: column;
         width: 80%;
-        z-index: -1;
+        z-index: 999;
         justify-content: space-between;
-        margin-top: 80px;
+        margin-top: 160px;
 
         h5 {
 
@@ -66,17 +66,18 @@
             color: rgba(0, 0, 0, 0.8);
             line-height: 1.8;
             width: 30em;
+            z-index: 999;
         }
     }
 
     .hero-banner {
         
-        transform: scale(.85);
+        transform: scale(.86);
         height: 100px;
         position: absolute;
-        top: -26px;
-        right: -65px;
-        z-index: 999;
+        top: 25px;
+        right: -62px;
+        z-index: -999;
     }
 }
 
