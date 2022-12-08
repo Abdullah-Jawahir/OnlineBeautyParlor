@@ -6,8 +6,6 @@ footer {
     padding-bottom: 7em;
     padding-left: $p-left;
     padding-right: $p-left;
-
-
     $h3-btm-mrgn: 40px;
     $bpms-h3-btm-mrgn: $h3-btm-mrgn - 10px;
 
@@ -68,6 +66,12 @@ footer {
 
                 color: rgba(255, 255, 255, .7);
                 text-transform: capitalize;
+                transition: all .25s;
+
+                &:hover {
+
+                    color: $primary-color;
+                }
             }
 
         }

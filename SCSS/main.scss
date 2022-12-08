@@ -3,14 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
-* {
-
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Work Sans', sans-serif;
-}
-
 $primary-color: #F18C8E;
 $footer-links: #EA8C8E;
 $footer-bg: #100B0F;
@@ -20,6 +12,14 @@ $p-left: 8em;
 @import '../SCSS/home';
 @import '../SCSS/header';
 @import '../SCSS/footer';
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
 
 .container {
 
