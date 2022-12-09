@@ -69,41 +69,22 @@
     }
 }
 
-
 .serv-info {
 
-    position: relative;
-    width: 100%;
-    height: max-content;
-    z-index: 999;
-    background-color: #fff;
-    padding-top: 6em;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    padding-top: 6em;
     padding-bottom: 7em;
 
     .serv-watermark {
 
-        position: absolute;
         top: 6px;
-        font-size: 7.2rem;
-        font-weight: normal;
-        font-family: 'Pacifico', cursive;
-        text-transform: capitalize;
-        color: rgb(160, 159, 159);
-        opacity: .1;
-        z-index: -999;
-        letter-spacing: 1px;
     }
 
     h5 {
 
-        text-transform: uppercase;
-        color: #f18c8e;
-        letter-spacing: 1px;
-        font-size: 12px;
         margin-bottom: 10px;
         
     }

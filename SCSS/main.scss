@@ -18,6 +18,9 @@ $p-left: 7.9em;
 // --------------- Services Page ---------------
 @import '../SCSS/services';
 
+// --------------- About Page ---------------
+@import '../SCSS/about';
+
 * {
 
     margin: 0;
@@ -42,3 +45,35 @@ li {
 
     list-style: none;
 }
+
+
+.info {
+
+    position: relative;
+    width: 100%;
+    height: max-content;
+    background-color: #fff;
+    z-index: 999;
+
+    .watermark {
+
+        position: absolute;
+        font-size: 7.2rem;
+        font-weight: normal;
+        font-family: 'Pacifico', cursive;
+        text-transform: capitalize;
+        color: rgb(160, 159, 159);
+        opacity: .1;
+        z-index: -999;
+        letter-spacing: 1px;
+    }
+
+    h5 {
+
+        text-transform: uppercase;
+        color: #f18c8e;
+        letter-spacing: 1px;
+        font-size: 12px;
+    }
+}
+
