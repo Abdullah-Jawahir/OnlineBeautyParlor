@@ -21,17 +21,15 @@ $p-left: 7.9em;
 // --------------- About Page ---------------
 @import '../SCSS/about';
 
+// --------------- Contact Page ---------------
+@import '../SCSS/contact';
+
 * {
 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
-}
-
-.container {
-
-    // padding-top: 1.4em;
 }
 
 a {
