@@ -77,7 +77,7 @@
                 border: 2px solid #DEDFE4;
                 outline: none;
                 font-size: .9rem;
-                font-family: 'Lato', sans-serif;
+                // font-family: 'Lato', sans-serif;
                 color: gray;
             }
 
@@ -150,9 +150,9 @@
             .rough-undln {
 
                 position: absolute;
-                left: 138px;
-                top: 10px;
-                width: 46%;
+                left: 130px;
+                top: 15px;
+                width: 60% ;
             }
 
             
@@ -161,9 +161,16 @@
                 font-size: .9rem;
             }
 
+            p {
+
+                margin-right: 5px;
+            }
+
             a {
 
                 margin-bottom: 10px;
+                font-weight: bold;
+                font-family: sans-serif;
             }
 
         }
