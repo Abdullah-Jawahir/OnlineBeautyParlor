@@ -145,6 +145,16 @@
             width: fit-content;
             margin-left: auto;
             margin-right: auto;
+            position: relative;
+
+            .rough-undln {
+
+                position: absolute;
+                left: 138px;
+                top: 10px;
+                width: 46%;
+            }
+
             
             p, a {
 
@@ -154,23 +164,8 @@
             a {
 
                 margin-bottom: 10px;
-                position: relative;
-
-                &::after, &::before {
-
-                    content: '';
-                    position: absolute;
-                    left: 0;
-                    top: 0;
-                }
-
-                &::after {
-
-                    width: 100%;
-                    height: 5px;
-
-                }
             }
+
         }
     }
 
