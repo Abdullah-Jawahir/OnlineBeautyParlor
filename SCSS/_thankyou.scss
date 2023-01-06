@@ -1,0 +1,138 @@
+.thnk-body {
+
+    width: 100%;
+    padding-top: 7em;
+    padding-bottom: 4em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+
+        margin-bottom: 10px;
+    }
+
+    .thnk-para {
+
+        font-size: 1.5rem;
+        color: rgba(0, 0, 0, 0.7);
+    }
+
+    #apt-id {
+
+        margin-bottom: 60px;
+    }
+
+    .img-gallery {
+
+        width: 85%;
+        // border: 2px solid;
+        display: flex;
+        flex-wrap: wrap;
+        height: fit-content;
+
+        .img-card {
+
+            flex: 25%;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 10px;
+            margin-right: 5px;
+            margin-left: 5px;
+            position: relative;
+
+            img {
+
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                z-index: -999;
+                transition: all .6s;
+            }
+
+            $fade-in-time: 550ms;
+
+            .thnk-img-overlay {
+
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: #f18c8e;
+                opacity: 0;
+                z-index: 999;
+                color: #fff;
+                transition: opacity calc($fade-in-time - 50ms);
+            }
+
+            .fa-up-right-and-down-left-from-center {
+
+                position: absolute;
+                top: 30px;
+                right: 30px;
+                font-size: 1.6rem;
+                border: 1px solid;
+                padding: 15px;
+                border-radius: 50%;
+                transform: translateY(-100px);
+                transition: transform $fade-in-time;
+                cursor: pointer;
+                
+            }
+
+            .thnk-img-name {
+
+                position: absolute;
+                bottom: 30px;
+                left: 30px;
+                transform: translateY(100px);
+                transition: transform $fade-in-time;
+
+                p {
+
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                    font-size: 1.3rem;
+                }
+
+                h4 {
+
+                    font-size: 2.2rem;
+                    font-weight: 500;
+                }
+            }
+
+            
+
+            &:hover {
+
+                img {
+
+                    transform: scale(1.4);
+                }
+
+                .thnk-img-overlay {
+
+                    opacity: 0.8;
+
+                    .fa-up-right-and-down-left-from-center {
+
+                        transform: translateY(0);
+                    }
+
+                    .thnk-img-name {
+
+                        transform: translateY(0);
+                    }
+                }
+            }
+        }
+
+
+    }
+
+}
