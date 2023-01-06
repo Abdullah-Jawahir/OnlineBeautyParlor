@@ -1,0 +1,37 @@
+header {
+
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    
+    .hd-col {
+
+        display: flex;
+        align-items: center;
+        height: fit-content;
+    }
+
+    .hd-left {
+        flex-basis: 10%;
+
+
+        .hamburger {
+
+            flex-basis: 40%;
+            text-align: center;
+
+            .fa-bars {
+
+                font-size: 1.5rem;
+                color: #6164C1;
+            }
+        }
+
+        .logo {
+
+            flex-basis: 60%;
+            background-color: #6164C1;
+            color: #fff;
+        }
+    }
+}
